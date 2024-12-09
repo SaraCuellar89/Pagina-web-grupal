@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(234, 196, 106);
+}
+
+/*Inicio Header*/
+
+header{
+    padding: 70px 10px;
+    background-color: rgb(174, 24, 24);
+    
+}
+#caja_titulo{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+#caja_titulo:hover{
+    transform: scale(1.2);
+}
+
+
+/*Cierre header*/
+
+/*Inicio main*/
+
+main{
+    height: 70%;
+}
+/*titulo historia*/
+#Historiacaja{ 
+    font-size: 60px;
+    height:  5px;
+    padding: 70px 10px;
+      background-color: rgb(255, 178, 35);
+      width: 99,5%;
+      justify-content: center;
+  align-items:center ;
+  display: flex;
+      /*boton*/
+
+  }
+  button{
+    padding: 0%;
+    border: none;
+    cursor: pointer;
+  }
+  
+ #boton{
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+ }
+
+ 
+ #boton:hover{
+    transform: scale(1.3);
+ }
+/*Inicio menu*/
+
+
+#seccion_menu{
+    width: 60%;
+    position: relative;
+    top: 20px;
+    left: 20%;
+    right: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#menu_inicio{
+    width: 500px;
+    padding: 60px 60px;
+    margin: 30px;
+    
+}
+
+.lista_menu{
+    text-decoration: none;
+    border: 5px solid rgb(208, 93, 40);
+    font-size: 40px;
+    color: rgb(208, 93, 40);
+    margin: 20px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista_menu:hover{
+    background-color: rgb(230, 189, 79);
+    transform: scale(1.2);
+}
+
+
+/*Cierre menu*/
+
+
+
+
+
+/*cuadro historia*/
+#foto_restaurante{
+    float: left;
+    
+    margin: 10px 0 0px 10px;
+    border-style:solid;
+    height: 200px;
+    width: 300px;
+    
+    border-color: rgb(0, 0, 0);
+    border-radius: 40px 40px 40px 40px;
+    
+}
+#foto_restaurante:hover{
+    transform: scale(1.3);
+}
+#restaurant{
+    border-radius: 40px 40px 40px 40px;
+    border: 50px solid yellow;
+    
+    background-color: brown;
+    margin: 150px 50px 10px 50px;
+    height: 500px;
+    display:flex;
+ 
+}
+/*cadro historia*/
+/*texto historia*/
+#transfondo{
+    
+font-size: 17px;
+    position: relative;
+    display:flex;
+    text-align:justify;
+    margin:10px 10px 10px 10px;
+}
+/*inicio sesion*/
+#Sesion{
+    padding: 10px;
+   position:relative;
+   margin-top: 100px;
+   margin-left: auto; margin-right: auto;
+    border-radius: 40px 40px 40px 40px;
+    border: 10px solid rgb(252, 190, 75);
+    
+    background-color: rgb(255, 227, 167);
+    width: 400px;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.sison{
+    
+    font-size: 40px;
+    display: flex;
+justify-content: center;
+align-content: center;
+color: rgb(255, 164, 59);
+}
+.imput_sesion{
+    transition: 0.5s;
+    margin: 15px 0;
+    font-size: 20px;
+    background-color: rgb(230, 253, 187);
+    border:1px solid red 
+}
+
+.imput_sesion:hover{
+    transform: scale(1.2);
+}
+
+#confirmacion{
+    top: 5px;
+    font-size: 20px;
+    display: flex;
+justify-content: space-between;
+align-content: s;
+color: rgb(255, 164, 59);
+}
+
+#boton_sesion{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+   align-items: center;
+   margin-right: auto; margin-left: auto;
+    padding: 20px;
+    border: 1px solid black;
+    position: relative;
+  
+   top: 80%;
+    background-color: rgb(255, 16, 16);
+    border-radius: 12px;
+    border: 5px solid rgb(255, 130, 13);
+    transition: 0.5s;
+}
+
+#boton_sesion:hover{
+    transform: scale(1.2);
+    background-color: rgb(232, 112, 112);
+}
+/*Cierre main*/
+
+
+/*Inicio footer*/
+
+#seccion_pie{
+    margin-top: 250px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid rgb(208, 111, 65);
+}
+
+.pie_1{
+    font-size: 20px;
+    color: rgb(120, 65, 6);
+    margin: 10px;
+    padding: 10px;
+}
+/*Cierre footer*/

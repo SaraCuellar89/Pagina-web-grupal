@@ -1,0 +1,240 @@
+.protest-revolution-regular {
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(234, 196, 106);
+}
+
+/*Inicio Header*/
+
+header{
+    padding: 50px 10px;
+    background-color: rgb(174, 24, 24);
+}
+
+#titulo{
+    font-size: 150px;
+    font-family: "Protest Revolution", serif;
+    margin: 50px 100px;
+    padding: 10px 40px;
+}
+
+#caja_titulo{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 300px;
+    padding: 0 20px;
+    margin: 0 100px;
+}
+
+/*Cierre header*/
+
+/* Inicio header 2 */
+
+#titulo2{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#header2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 20px;
+    background-color: rgb(255, 162, 0);
+    width: 99,5%;
+    height: 60px;
+}
+
+#titulo2{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.boton span {
+    display: block;
+    height: 6px;
+    background-color: #a60e0e;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.boton:hover span {
+    background-color: #fff700;
+}
+
+
+/* Fin header 2 */
+
+/* Inicio columnas */
+
+#columnas {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Fin columnas */
+
+/* Inicio Menu */
+
+.card1 {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.card1 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.card1 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px #000;
+}
+
+.card1 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card1 .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card1 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(255, 132, 0);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card1 .back .link{
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card1 .back .link a {
+    color: #f3f3f3;
+}
+
+.card1 .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card1 .back p {
+    letter-spacing: 1px;
+}
+
+.card1:hover .front{
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card1:hover .back{
+    transform: perspective(600px) rotateY(360deg);
+}
+
+#columna_1{
+    transform: scaleX(-1);
+}
+
+/* Fin menú */
+
+/* Inicio footer */
+
+#seccion_pie{
+    margin-top: 150px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid rgb(208, 111, 65);
+}
+.pie_1{
+    font-size: 20px;
+    color: rgb(120, 65, 6);
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Fin footer */
+
+
+
+
+
+@media (max-width: 2500px){
+    .caja_titulo{
+        width: auto;
+    }
+
+    #logo{
+        width: 300px;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #titulo{
+        font-size: 100px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin: 0;
+    }
+}

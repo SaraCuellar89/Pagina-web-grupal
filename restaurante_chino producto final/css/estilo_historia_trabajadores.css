@@ -1,0 +1,305 @@
+.protest-revolution-regular {
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(234, 196, 106);
+}
+
+/*Inicio Header*/
+
+header{
+    padding: 50px 10px;
+    background-color: rgb(174, 24, 24);
+}
+
+#titulo{
+    font-size: 150px;
+    font-family: "Protest Revolution", serif;
+    margin: 50px 100px;
+    padding: 10px 40px;
+}
+
+#caja_titulo{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 300px;
+    padding: 0 20px;
+    margin: 0 100px;
+}
+
+/*Cierre header*/
+
+/*Inicio main*/
+
+main{
+    height: 70%;
+}
+/*titulo historia*/
+#Historiacaja{ 
+    font-size: 80px;
+    height:  30%;
+      background-color: rgb(255, 178, 35);
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  align-items:center ;
+
+      /*boton*/
+
+  }
+  
+
+
+ #boton{
+    width: 70px;
+    position: absolute;
+    left: 10px;
+    top: 430px;
+ }
+
+ #boton2{
+    position: absolute;
+    top: auto;
+   left: 1%;
+   height: 70px;
+   width: 70px;
+   bottom: auto;
+ }
+
+ #boton2:hover{
+    transform: scale(1.1);
+ }
+
+ #boton:hover{
+    transform: scale(1.3);
+ }
+/*Inicio menu*/
+
+
+#seccion_menu{
+    width: 60%;
+    position: relative;
+    top: 20px;
+    left: 20%;
+    right: 20%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+#menu_inicio{
+    width: 500px;
+    padding: 60px 60px;
+    margin: 30px;
+    
+}
+
+.lista_menu{
+    text-decoration: none;
+    border: 5px solid rgb(208, 93, 40);
+    font-size: 40px;
+    color: rgb(208, 93, 40);
+    margin: 20px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista_menu:hover{
+    background-color: rgb(230, 189, 79);
+    transform: scale(1.2);
+}
+
+
+/*Cierre menu*/
+
+
+
+
+
+/*cuadro historia*/
+
+#caja_restaurante{
+    padding: 50px;
+    width: 70%;
+    height: auto;
+    background-color: #9a453f;
+    position: relative;
+    margin-left: auto; margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: solid 15px rgb(241, 192, 67);
+}
+
+#foto_restaurante{
+    float: left;
+    width: 900px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 10px #000000;
+    margin: 50px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#foto_restaurante:hover{
+    transform: scale(1.1);
+}
+
+p{
+    font-size: 30px;
+    padding: 20px; 
+    text-align: justify;
+}
+
+
+/*cadro historia*/
+/*texto historia*/
+
+/*inicio sesion*/
+
+#caja_inicio_sesion{
+    background-color: rgb(255, 162, 0);
+    font-size: 40px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#boton_menu{
+    width: 40px;
+    position: absolute;
+    left: 5px;
+    top: 40px;
+}
+
+#boton_menu:hover{
+    transform: scale(1.3) ;
+}
+
+#Sesion{
+    padding: 10px;
+   position:relative;
+   top: 60%;
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto; 
+    border-radius: 40px 40px 40px 40px;
+    border: 10px solid rgb(252, 190, 75);
+    background-color: rgb(255, 227, 167);
+    height: 550px;
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.sison{
+    font-size: 40px;
+    display: flex;
+justify-content: center;
+align-content: center;
+color: rgb(255, 164, 59);
+line-height: 1.5;
+}
+
+.imput_sesion{
+    transition: 0.5s;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgb(230, 253, 187);
+    border:1px solid red 
+}
+
+.imput_sesion:hover{
+    transform: scale(1.2);
+}
+
+#boton_sesion{
+    font-size: 30px;
+    padding: 20px;
+    border: 1px solid rgb(121, 62, 3);
+    position: relative;
+    left: 50px;
+    background-color: rgb(241, 222, 116);
+    margin-top: 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+#boton_sesion:hover{
+    transform: scale(1.2);
+    background-color: rgb(215, 92, 44);
+}
+
+
+/*Cierre main*/
+
+
+/*Inicio footer*/
+
+#seccion_pie{
+    margin-top: 250px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 3px solid rgb(208, 111, 65);
+}
+
+.pie_1{
+    font-size: 20px;
+    color: rgb(120, 65, 6);
+    margin: 10px;
+    padding: 10px;
+}
+/*Cierre footer*/
+
+
+@media (max-width: 2550px) {
+    .caja_titulo{
+        width: auto;
+    }
+
+    #logo{
+        width: 300px;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    #titulo{
+        font-size: 100px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin: 0;
+    }
+
+    #boton{
+        top: 360px;
+    }
+
+    #Historia{
+        font-size: 80px;
+    }
+
+    #foto_restaurante{
+        width: 600px;
+    }
+  }

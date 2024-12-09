@@ -1,0 +1,395 @@
+.protest-revolution-regular {
+    font-family: "Protest Revolution", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(234, 196, 106);
+}
+
+/*Inicio Header*/
+
+header{
+    padding: 50px 10px;
+    background-color: rgb(174, 24, 24);
+}
+
+#titulo{
+    font-size: 150px;
+    font-family: "Protest Revolution", serif;
+    margin: 50px 100px;
+    padding: 10px 150px;
+    display: flex;
+    text-align: center;
+}
+
+#caja_titulo{
+    display: flex;
+    justify-content: center;
+}
+#logo{
+    width: 300px;
+    padding: 0 20px;
+    margin: 0 100px;
+}
+
+/*Cierre header*/
+
+/*Inicio de nav*/
+
+#seccion_navegacion{
+    background-color: rgb(255, 162, 0);
+    font-size: 60px;
+    display: flex;
+    box-sizing: content-box;
+    height: 100px;
+    padding: 5px;
+}
+
+#titulo_nav{
+    margin-left: auto; margin-right: auto;
+}
+
+#boton_menu{
+    position: absolute;
+    top: 410px;
+    margin: 5px;
+    width: 80px;
+}
+
+#boton_menu:hover{
+    transform: scale(1.2);
+}
+
+
+/*Cierre de nav*/
+
+/*Inicio main*/
+
+#index{
+    margin: 40px;
+    border: solid 10px chocolate;
+    border-style: dashed;
+    height: 900px;
+    width: 2000px;
+    margin-left: auto;margin-right: auto;
+}
+
+
+/*Inicio menu*/
+
+
+#seccion_menu{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+#menu_inicio{
+    width: 500px;
+    padding: 60px 60px;    
+}
+
+#decoracion_1_2{
+    transform: scaleX(-1);
+}
+
+.lista_menu{
+    text-decoration: none;
+    border: 5px solid rgb(208, 93, 40);
+    font-size: 40px;
+    color: rgb(208, 93, 40);
+    margin: 20px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista_menu:hover{
+    background-color: rgb(230, 189, 79);
+    transform: scale(1.2);
+}
+
+
+/*Cierre menu*/
+
+/*Cierre main*/
+
+
+/*Inicio footer*/
+
+#seccion_pie{
+    margin-top: 250px;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: 3px solid rgb(208, 111, 65);
+}
+
+.pie_1{
+    font-size: 20px;
+    color: rgb(120, 65, 6);
+    margin: 10px;
+    padding: 10px;
+}
+/*Cierre footer*/
+
+
+/*Inicio reservas*/
+
+/*Inicio barra de busqueda*/
+
+#barra_busqueda{
+    background-color: rgb(226, 178, 44);
+    box-sizing: content-box;
+    width: 1000px;
+    height: 70px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 50px 40px;
+    position: relative;
+    margin-right: auto;margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(208, 93, 40);
+}
+#buscar{
+    margin: 0 20px;
+    font-size: 40px; color: rgb(178, 81, 36);
+}
+#barra{
+    width: 60%;
+    height: 30px;
+}
+#lupa{
+    width: 50px;
+    padding: 10px;
+}
+
+/*Cierre barra de busqueda*/
+
+/*Inicio seccion de reservas*/
+
+.seccion_reservas{
+    margin-top: 200px;
+}
+
+#articulo{
+    background-color: rgb(226, 178, 44);
+    box-sizing: content-box;
+    width: 1500px;
+    height: 400px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 50px 40px;
+    position: relative;
+    margin-right: auto;margin-left: auto;
+    font-size: 40px;
+    box-shadow: 10px 10px 20px rgb(49, 35, 35);
+    border: solid 5px rgb(208, 93, 40);
+}
+
+#img_restaurante{
+    float: left;
+    width: 30%;
+    height: 80%;
+    padding: 30px 60px;
+    margin: 0 40px;
+    transition: 0.5s;
+    border-radius: 80px;
+}
+
+#img_restaurante:hover{
+    transform: scale(1.1);
+}
+
+#info{
+    font-size: 40px;
+    display: grid;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+#ciudad{
+    margin-top: 20px;
+    border-bottom: solid 5px rgb(174, 24, 24);
+    display: flex;
+    justify-content: center;
+}
+
+#barrio{
+    margin-top: 20px;
+    border-bottom: solid 5px rgb(174, 24, 24);
+    display: flex;
+    justify-content: center;
+}
+
+#info_2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+}
+
+#link_menu{
+    text-decoration: none;
+    color: #000000;
+}
+
+#link_menu:hover{
+    color: chocolate;
+}
+
+#caja_reserva{
+    background-color: rgb(208, 93, 40);
+    font-size: 40px;
+    width: 800px;
+    height: 320px;
+    margin-right: auto;margin-left: auto;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 80px;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 10px 10px 20px rgb(49, 35, 35);
+    border: solid 5px rgb(130, 58, 25);
+}
+
+.input{
+    font-size: 30px;
+    width: 60%;
+    height: 40px;
+    margin-left: auto; margin-right: auto;
+    background-color: rgb(240, 205, 108);
+    transition: 0.5s;
+}
+
+.input:hover{
+    transform: scale(1.2);
+}
+
+#boton_reservar{
+    width: 40%;
+    margin-left: auto; margin-right: auto;
+    margin-top: 30px; padding: 20px 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(226, 178, 44);
+    transition: 0.5s;
+}
+
+#boton_reservar:hover{
+    transform: scale(1.2);
+    background-color: rgb(215, 101, 101);
+
+}
+
+/*Cierre de reservas*/
+
+
+@media (max-width: 2500px) {
+
+    .caja_titulo{
+        width: auto;
+    }
+
+    #logo{
+        width: 300px;
+        height: 250px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #titulo{
+        font-size: 100px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        margin: 0;
+    }
+
+    #index{
+        width: 80%;
+        height: 850px;
+        margin-top: 80px;
+        margin-left: auto; margin-right: auto;
+        padding: 0 30px;
+        padding-bottom: 0;
+        padding-top: 80px;
+    }
+
+    .lista_menu{
+        width: 60%;
+        font-size: 30px; 
+        margin-left: auto; margin-right: auto;
+    }
+
+    #menu_inicio{
+        padding: 0;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .decoracion_1{
+        width: 300px;
+        height: 550px;
+        margin: auto 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    /* Reservas */
+
+    #titulo_nav{
+        margin-left: auto; margin-right: auto;
+    }
+
+    #boton_menu{
+        top: 360px;
+    }
+
+    #barra_busqueda{
+        width: 50%;
+    }
+
+    #articulo{
+        width: 80%;
+    }
+
+    label{
+        font-size: 30px;
+    }
+
+    #ciudad{
+        font-size: 50px;
+    }
+
+    #barrio{
+        font-size: 40px;
+    }
+
+    #caja_reserva{
+        height: 300px;
+    }
+
+    #info_2{
+        font-size: 30px;
+    }
+
+    #boton_reservar{
+        font-size: 25px;
+    }
+  }
+
+ 
